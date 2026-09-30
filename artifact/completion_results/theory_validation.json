@@ -1,0 +1,102 @@
+{
+  "method": "full cohort multinomial types and hypergeometric selection",
+  "estimator": {
+    "parameter_settings": 2535,
+    "full_cohort_selection_states": 1305,
+    "designs": [
+      {
+        "m": 1,
+        "R": 1,
+        "enumerated_states": 3
+      },
+      {
+        "m": 2,
+        "R": 1,
+        "enumerated_states": 7
+      },
+      {
+        "m": 2,
+        "R": 2,
+        "enumerated_states": 6
+      },
+      {
+        "m": 4,
+        "R": 1,
+        "enumerated_states": 21
+      },
+      {
+        "m": 4,
+        "R": 2,
+        "enumerated_states": 21
+      },
+      {
+        "m": 4,
+        "R": 3,
+        "enumerated_states": 18
+      },
+      {
+        "m": 4,
+        "R": 4,
+        "enumerated_states": 15
+      },
+      {
+        "m": 8,
+        "R": 1,
+        "enumerated_states": 73
+      },
+      {
+        "m": 8,
+        "R": 2,
+        "enumerated_states": 87
+      },
+      {
+        "m": 8,
+        "R": 7,
+        "enumerated_states": 52
+      },
+      {
+        "m": 8,
+        "R": 8,
+        "enumerated_states": 45
+      },
+      {
+        "m": 16,
+        "R": 1,
+        "enumerated_states": 273
+      },
+      {
+        "m": 16,
+        "R": 2,
+        "enumerated_states": 363
+      },
+      {
+        "m": 16,
+        "R": 15,
+        "enumerated_states": 168
+      },
+      {
+        "m": 16,
+        "R": 16,
+        "enumerated_states": 153
+      }
+    ],
+    "max_probability_mass_error": 1.1102230246251565e-15,
+    "max_unbiasedness_error": 7.771561172376096e-16,
+    "max_variance_error": 1.3877787807814457e-16,
+    "max_conditional_cohort_mean_error": 2.220446049250313e-16,
+    "minimum_grid_coverage": 0.9579698314611438,
+    "minimum_grid_coverage_setting": {
+      "m": 16,
+      "R": 16,
+      "a": 0.05,
+      "b": 0.5
+    }
+  },
+  "first_hit": {
+    "settings": 330,
+    "max_screen_error": 8.881784197001252e-16,
+    "max_completion_error": 0.0,
+    "max_full_error": 0.0
+  },
+  "caveat": "Grid coverage is implementation validation; uniform coverage follows from proof."
+}

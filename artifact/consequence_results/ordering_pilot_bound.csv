@@ -1,0 +1,2 @@
+d,theta_exact,pilot_inputs,extra_pilot_query_cost,saving_per_fresh_input_upper_bound_exact,saving_per_fresh_input_upper_bound,necessary_cohort_ratio_exact,necessary_same_fresh_cohort,threshold_kind,pilot_labels_pooled
+36,1/100,50,1800,7/40,0.175,72000/7,10286,necessary_for_expected_break_even_not_sufficient,False

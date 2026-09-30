@@ -1,0 +1,30 @@
+{
+  "first_hit_permutation_max_residual": 1.1102230246251565e-15,
+  "outcome_dependent_full_cp_reduction": "correctly_disabled",
+  "deterministic_full_cp_reduction": "passed",
+  "variance_crosscheck_repetitions": 40000,
+  "variance_crosscheck_design": {
+    "m": 120,
+    "R": 12,
+    "k": 4,
+    "theta": 0.2
+  },
+  "exact_moments": {
+    "theta": 0.19999999999999996,
+    "detection_probability": 0.040247009908719315,
+    "residual_probability": 0.1664521931586655,
+    "expected_point": 0.19999999999999996,
+    "exact_bias": 0.0,
+    "exact_variance": 0.010877573164509484,
+    "exact_mse": 0.010877573164509484,
+    "expected_calls": 1464.5614148852874,
+    "variance_equivalence_residual": 1.734723475976807e-18
+  },
+  "simulated_mean": 0.20010178819444444,
+  "simulated_variance": 0.010845269294719143,
+  "simulated_mse": 0.010845008523823302,
+  "simulated_mean_calls": 1464.3228,
+  "mean_z": 0.1954822082163404,
+  "mse_z": -0.4143597707391365,
+  "cost_z": -0.5076450161268862
+}

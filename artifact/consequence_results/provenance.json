@@ -1,0 +1,35 @@
+{
+  "evidence_type": "analytic_constructed_example",
+  "empirical_trials": 0,
+  "monte_carlo_trials": 0,
+  "deterministic": true,
+  "source_hashes": {
+    "decision_consequences.py": "7e9075d69e60d8417d7a6985725aa14998effd84e2a87c242c8d07ba05cd88c2"
+  },
+  "witness_source": "experiments/results/finite_suite_results.json",
+  "witness_canonical_fields": [
+    "d",
+    "k",
+    "support",
+    "weights_A_exact",
+    "weights_B_exact",
+    "target_A_exact",
+    "target_B_exact",
+    "common_count_distribution_exact"
+  ],
+  "witness_canonical_sha256": "c6698c5e02492fbde825b7cd8434b48f1fd3c8d2e16e354eee9ae12a807e268a",
+  "witness_canonical_serialization": "UTF-8 JSON; sort_keys=True; separators=(',', ':'); no final newline",
+  "result_hashes": {
+    "certification_comparison.csv": "7dd2bb0b8022dc26e8fe1d4dbe622bc1f3d9e31c02d19a90458e3649afefc2c4",
+    "mixed_witness.csv": "d0ce459398229c2075966bab086f742392b57772910dcadc1c13ee56970fda7a",
+    "common_count_law.csv": "28f72b4d74b0b069a94cb93256fd21963008e4ba66e429b74a4f52d86e1d486c",
+    "ordering_pilot_bound.csv": "8c194ffb4907a79b219f17caaf8b76c2a2c6fd0de221120c059fcec454295681",
+    "exact_checks.json": "bd4c36237cc4d49070951ed9ae73a32ba2d194dc2cc6a9c205b6583d1d0d70a7",
+    "README.md": "3c22f1c52d557f1c404330cc1f8241d2d837b5bcb4f99285c89310d15d6ada60"
+  },
+  "witness_selection": {
+    "d": 64,
+    "k": 4
+  },
+  "hash_scope": "Source and result hashes use raw bytes. The witness hash uses canonical exact fields, excluding runtime measurements. provenance.json is excluded from result hashes to avoid a self-reference."
+}
