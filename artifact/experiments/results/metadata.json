@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "matplotlib": "3.10.8",
+  "case_count": 23,
+  "all_exact_certificates_passed": true,
+  "method": "LP support discovery followed by exact Fraction arithmetic: all moments, all hypergeometric audit probabilities, and polynomial error on every integer grid point",
+  "max_floating_count_probability_discrepancy": 2.220446049250313e-16,
+  "max_lp_width_error": 1.0960867630194215e-12,
+  "total_solver_seconds": 0.2565579414367676
+}

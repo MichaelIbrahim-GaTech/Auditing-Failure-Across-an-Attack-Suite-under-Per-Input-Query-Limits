@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "exact_allocation_bellman_cases": 160,
+  "exact_allocation_products_checked": 1550,
+  "bellman_states_evaluated": 1449,
+  "subset_envelope_cases": 91,
+  "exact_inverse_boundary_cases": 6,
+  "inverse_bracket_cases": 11,
+  "invalid_parameter_cases": 4,
+  "fraction_bisection_bits": 80,
+  "arithmetic": "Exact fractions for checks and root brackets; outward-rounded display floats",
+  "scope": "Small exhaustive checks support the written proof; they do not enumerate arbitrary infinite policy classes.",
+  "source_sha256": "4da21d553b90d735e2352f9e605b48e69301f7a25903b7dfb55c3efab18d5999",
+  "examples": 9
+}

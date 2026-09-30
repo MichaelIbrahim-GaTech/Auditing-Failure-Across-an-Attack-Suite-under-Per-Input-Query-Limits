@@ -1,0 +1,8 @@
+{
+  "original_histograms_verified": 4200,
+  "max_recomputed_projection_endpoint_difference": 1.1102230246251565e-16,
+  "max_bias_violation": 0.0,
+  "max_full_suite_analytic_mse_difference": 4.336808689942018e-19,
+  "all_population_MSEs_below_uniform_bounds": true,
+  "oracle_fraction_certificates_verified_during_run": true
+}

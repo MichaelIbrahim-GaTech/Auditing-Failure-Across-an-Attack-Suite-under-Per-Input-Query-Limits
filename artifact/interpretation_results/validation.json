@@ -1,0 +1,35 @@
+{
+  "analysis": "Deterministic reanalysis; no new model calls or audit simulations",
+  "sampling_target": "Uniform distribution over retained frozen rows; with-replacement audit records",
+  "threshold_design": {
+    "budget": 18000,
+    "k": 4,
+    "screen_fraction": 0.5,
+    "thresholds": [
+      0.25,
+      0.5,
+      0.75
+    ]
+  },
+  "max_detection_formula_residual": 2.220446049250313e-16,
+  "max_full_cost_formula_residual": 8.881784197001252e-16,
+  "max_completion_variance_formula_residual": 2.710505431213761e-19,
+  "max_completion_cost_formula_residual": 1.8189894035458565e-12,
+  "max_existing_summary_moment_residual": 4.235164736271502e-22,
+  "threshold_histograms_match_archived_counts": true,
+  "threshold_descriptors_match_existing_sensitivity": true,
+  "comparison_replications_are_independent": true,
+  "source_sha256": {
+    "run_interpretation.py": "6e0530827f45bcaed1e4aec52e0a2af4890aa43293ec117ad98da41c09107f11",
+    "audit_data.py": "d06c679a59e9c7dcbf0fa893c53908f2d8d588e7e47015a1a343b13f6e28ab1c",
+    "completion_audit.py": "fe3987dfff7e4691c13d39928b5898eb1867765ea721666f24bb3a234b261483",
+    "strongreject_audit_results/primary_score_matrices.npz": "6c2c0eee3163dfe9f9188af70c683042f16ce04b7d7689aa47aa15e3905e1f1b",
+    "strongreject_audit_results/threshold_sensitivity.csv": "19777eff7618c18f354b7d5e505f57ce266ecebbe1c4ecc47d6f85af9beed2cc",
+    "strongreject_results/histograms.csv": "71f0e2fda8d6e4b5d90745732a2076bc8ec552428f2d20ebcd99c65b0a998101",
+    "empirical_results/logistic_regression_failure_matrix.npz": "2965b5879915a1207223cb8dede53828983423fc971975db66904a657c5a68f2",
+    "empirical_results/random_forest_failure_matrix.npz": "2ef9cefe1b6ea0ce55665dc19dcf7d17c89be6a2b81ae0d7d87740e04dd29076",
+    "completion_results/main_summary.csv": "2d4e4d6581b12455fca6ff56e5a4753f5139669d5816b818a0afcc751b83af49",
+    "completion_results/controlled_summary.csv": "ee6d52b90c32edbb2cde6a531e75f151fad7597bcb14358df844c6cbbd848f1d",
+    "oracle_results/oracle.csv": "9f7ed9755fbc3a8c9e22a715dcc657010245d710b6f2bbe4299af3444dfa1a1b"
+  }
+}

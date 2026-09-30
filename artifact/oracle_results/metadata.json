@@ -1,0 +1,19 @@
+{
+  "repetitions": 100,
+  "settings": 66,
+  "intervals": 6600,
+  "elapsed_seconds": 34.50467085838318,
+  "reused_digits_histograms": true,
+  "reconstructed_original_StrongREJECT_m500_seeds": true,
+  "linear_fit_population_independent": true,
+  "oracle_exact_singletons": 8,
+  "oracle_sharp_to_1e9": 9,
+  "oracle_outer_only": 5,
+  "statuses": {
+    "reused_existing_histogram": 3000,
+    "ok": 1600,
+    "reused_original_seed": 1200,
+    "full_suite": 800
+  },
+  "max_projection_residual": 9.110869475030671e-10
+}

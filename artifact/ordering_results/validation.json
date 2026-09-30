@@ -1,0 +1,78 @@
+{
+  "all_zero_tie_order": "passed",
+  "common_strongreject_pilot_ids": true,
+  "cp_boundary_checks": 8,
+  "exhaustive_uniform_cost_vectors": 32,
+  "fixed_split_conditional_results": true,
+  "greedy_hand_example": "passed",
+  "no_heldout_order_optimization": true,
+  "permutations_per_vector": 120,
+  "populations": {
+    "Dolphin": {
+      "all_zero_cost_equals_d": true,
+      "complete_partition": true,
+      "full_suite_labels_invariant": true,
+      "heldout_binary_sha256": "f706075fe677e6309105ec416f2c7be9d3bdfda134e58bb9ffb8af207aa8b92a",
+      "heldout_outcome_flip_does_not_change_order": true,
+      "independently_recomputed_greedy_ties": true,
+      "pilot_binary_sha256": "c745110e9270e08f54beef8b86b90641bfcf6bad58c514b74d64558c1dc32331",
+      "pilot_heldout_disjoint": true,
+      "scenario_a_same_labels_and_cp_for_any_common_cohort": true
+    },
+    "Forest": {
+      "all_zero_cost_equals_d": true,
+      "complete_partition": true,
+      "full_suite_labels_invariant": true,
+      "heldout_binary_sha256": "7ffcecbfcc7c6927010a5e843152be6056d67bcca24e7f706920d3ed57ff1e30",
+      "heldout_outcome_flip_does_not_change_order": true,
+      "independently_recomputed_greedy_ties": true,
+      "pilot_binary_sha256": "bd46ce8ffbdb493ecf74d3fdf19e097273d0614fd7808ce4d9fa2f8cd5b6eeec",
+      "pilot_heldout_disjoint": true,
+      "scenario_a_same_labels_and_cp_for_any_common_cohort": true
+    },
+    "GPT-3.5": {
+      "all_zero_cost_equals_d": true,
+      "complete_partition": true,
+      "full_suite_labels_invariant": true,
+      "heldout_binary_sha256": "9f023617055a42158033f6e5df71c27cba6e38a2d3e933e79d3b4facbbc42432",
+      "heldout_outcome_flip_does_not_change_order": true,
+      "independently_recomputed_greedy_ties": true,
+      "pilot_binary_sha256": "4f9195412dfde6d5ac970d27eb3d42c01b3bff0f84af856cbf30841eb5b945da",
+      "pilot_heldout_disjoint": true,
+      "scenario_a_same_labels_and_cp_for_any_common_cohort": true
+    },
+    "GPT-4o-mini": {
+      "all_zero_cost_equals_d": true,
+      "complete_partition": true,
+      "full_suite_labels_invariant": true,
+      "heldout_binary_sha256": "867337b371f0eb04ea16cff98d2b4532f884e2806bb229e2ac796b20afb4f26d",
+      "heldout_outcome_flip_does_not_change_order": true,
+      "independently_recomputed_greedy_ties": true,
+      "pilot_binary_sha256": "2cfc918f17f13853a49f95e96eea08ede83020180972779ee32529e11a333baa",
+      "pilot_heldout_disjoint": true,
+      "scenario_a_same_labels_and_cp_for_any_common_cohort": true
+    },
+    "Llama-3.1": {
+      "all_zero_cost_equals_d": true,
+      "complete_partition": true,
+      "full_suite_labels_invariant": true,
+      "heldout_binary_sha256": "fbbc1c638df64078e2019d42b51a733c8fb7f8d4848e6fdb4801071a314f30ce",
+      "heldout_outcome_flip_does_not_change_order": true,
+      "independently_recomputed_greedy_ties": true,
+      "pilot_binary_sha256": "e63b3294d90beebcac3be16626a1376a26fe5652fdbfd67b3f0a513bf3491bde",
+      "pilot_heldout_disjoint": true,
+      "scenario_a_same_labels_and_cp_for_any_common_cohort": true
+    },
+    "Logistic": {
+      "all_zero_cost_equals_d": true,
+      "complete_partition": true,
+      "full_suite_labels_invariant": true,
+      "heldout_binary_sha256": "f7b6bdde9949270302b3cd722d8d03afd99159464c21236ff573ca32ef659138",
+      "heldout_outcome_flip_does_not_change_order": true,
+      "independently_recomputed_greedy_ties": true,
+      "pilot_binary_sha256": "e05b286dccec91b9f07d1a2a06435e51a6fc86c7b45df47e44b6ccca4bea8095",
+      "pilot_heldout_disjoint": true,
+      "scenario_a_same_labels_and_cp_for_any_common_cohort": true
+    }
+  }
+}

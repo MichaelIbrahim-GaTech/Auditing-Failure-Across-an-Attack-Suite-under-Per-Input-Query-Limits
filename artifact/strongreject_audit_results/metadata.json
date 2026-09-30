@@ -1,0 +1,14 @@
+{
+  "settings": 12,
+  "intervals": 1200,
+  "partial_coverage_range": [
+    0.96,
+    1.0
+  ],
+  "full_coverage_range": [
+    0.96,
+    1.0
+  ],
+  "max_residual": 9.914291609902648e-14,
+  "elapsed_seconds": 4.460504770278931
+}

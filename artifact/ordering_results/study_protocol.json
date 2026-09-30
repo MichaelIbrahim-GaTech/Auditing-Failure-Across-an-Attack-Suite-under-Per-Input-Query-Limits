@@ -1,0 +1,19 @@
+{
+  "audit_sampling": "hypothetical iid draws with replacement from held-out reference; fixed cohort size",
+  "digits_split": "stream 1 for logistic and 2 for forest, in archived eligible-row order",
+  "error_probability": 0.05,
+  "no_model_calls": true,
+  "no_monte_carlo_trials": true,
+  "no_saved_cost_reinvestment": true,
+  "numeric_precision": "rational expected costs/theta/variance; floating-point CP quantiles and finite binomial enumeration",
+  "order": "greedy coverage of pilot positives, ties by original coordinate index; all d attacks retained",
+  "pilot_measurement": "fully reveal 50*d entries; do not early stop pilot",
+  "pilot_rows_per_population": 50,
+  "reference": "uniform distribution over disjoint held-out rows, conditional on this fixed split",
+  "scenario_a": "same cohort r=floor(B/d); learner pilot is separate and included in expected total cost; learned total ceiling is B+50*d",
+  "scenario_b": "same end-to-end ceiling B; uniform r=floor(B/d), learned r-50; pilot labels excluded from audit estimate",
+  "seed": 20260923,
+  "split": "fixed NumPy PCG64 SeedSequence([20260923, stream]); first 50 permuted rows",
+  "strongreject_score_threshold": 0.5,
+  "strongreject_split": "stream 0 over sorted common context IDs; same 50 IDs for all four models"
+}

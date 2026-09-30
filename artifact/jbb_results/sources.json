@@ -1,0 +1,369 @@
+{
+  "repository_commit": "909e68c01d94222b8ad2e397a017e2e12e2adb73",
+  "files": [
+    {
+      "path": "attack-artifacts/DSN/white_box/llama-2-7b-chat-hf.json",
+      "url": "https://raw.githubusercontent.com/JailbreakBench/artifacts/909e68c01d94222b8ad2e397a017e2e12e2adb73/attack-artifacts/DSN/white_box/llama-2-7b-chat-hf.json",
+      "sha256": "9bcdbe88b18e729ca9abf593d3e5141e7958aff0eb3a0e62ae92b8f64acbdcd9",
+      "bytes": 126910,
+      "parameters": {
+        "method": "DSN",
+        "model": "llama-2-7b-chat-hf",
+        "attack_type": "white_box",
+        "defense": null,
+        "attack_success_rate": 0.94,
+        "total_number_of_jailbreaks": 94,
+        "number_of_submitted_prompts": 100,
+        "total_number_of_queries": null,
+        "total_prompt_tokens": null,
+        "total_response_tokens": null,
+        "evaluation_date": "2024-10-14",
+        "evaluation_llm_provider": "vllm"
+      }
+    },
+    {
+      "path": "attack-artifacts/DSN/white_box/vicuna-13b-v1.5.json",
+      "url": "https://raw.githubusercontent.com/JailbreakBench/artifacts/909e68c01d94222b8ad2e397a017e2e12e2adb73/attack-artifacts/DSN/white_box/vicuna-13b-v1.5.json",
+      "sha256": "ea0a5f7331baf595fb6e6925423f43367cbce8da9273ce93c6a03e2201e3373d",
+      "bytes": 128486,
+      "parameters": {
+        "method": "DSN",
+        "model": "vicuna-13b-v1.5",
+        "attack_type": "white_box",
+        "defense": null,
+        "attack_success_rate": 0.95,
+        "total_number_of_jailbreaks": 95,
+        "number_of_submitted_prompts": 100,
+        "total_number_of_queries": null,
+        "total_prompt_tokens": null,
+        "total_response_tokens": null,
+        "evaluation_date": "2024-10-14",
+        "evaluation_llm_provider": "vllm"
+      }
+    },
+    {
+      "path": "attack-artifacts/GCG/transfer/gpt-3.5-turbo-1106.json",
+      "url": "https://raw.githubusercontent.com/JailbreakBench/artifacts/909e68c01d94222b8ad2e397a017e2e12e2adb73/attack-artifacts/GCG/transfer/gpt-3.5-turbo-1106.json",
+      "sha256": "ff185b1dc73732d830e96efdb3f4a92294ee72e9c88a1800b1d11d4ecb3d4cdf",
+      "bytes": 128899,
+      "parameters": {
+        "method": "GCG",
+        "model": "gpt-3.5-turbo-1106",
+        "attack_type": "transfer",
+        "defense": null,
+        "attack_success_rate": 0.47,
+        "total_number_of_jailbreaks": 34,
+        "number_of_submitted_prompts": 100,
+        "total_number_of_queries": null,
+        "total_prompt_tokens": null,
+        "total_response_tokens": null,
+        "evaluation_date": "2024-03-18",
+        "evaluation_llm_provider": "litellm"
+      }
+    },
+    {
+      "path": "attack-artifacts/GCG/transfer/gpt-4-0125-preview.json",
+      "url": "https://raw.githubusercontent.com/JailbreakBench/artifacts/909e68c01d94222b8ad2e397a017e2e12e2adb73/attack-artifacts/GCG/transfer/gpt-4-0125-preview.json",
+      "sha256": "af54543a06e3702256315517ee6e6a7b0edf182dd2c6d938216fa58cbea8de23",
+      "bytes": 94384,
+      "parameters": {
+        "method": "GCG",
+        "model": "gpt-4-0125-preview",
+        "attack_type": "transfer",
+        "defense": null,
+        "attack_success_rate": 0.04,
+        "total_number_of_jailbreaks": 1,
+        "number_of_submitted_prompts": 100,
+        "total_number_of_queries": null,
+        "total_prompt_tokens": null,
+        "total_response_tokens": null,
+        "evaluation_date": "2024-03-18",
+        "evaluation_llm_provider": "litellm"
+      }
+    },
+    {
+      "path": "attack-artifacts/GCG/white_box/llama-2-7b-chat-hf.json",
+      "url": "https://raw.githubusercontent.com/JailbreakBench/artifacts/909e68c01d94222b8ad2e397a017e2e12e2adb73/attack-artifacts/GCG/white_box/llama-2-7b-chat-hf.json",
+      "sha256": "f76cbaf899c79ca8eed6a6ed26d6f8789933c5595a9a5ee028e305dec4dd95f7",
+      "bytes": 141247,
+      "parameters": {
+        "method": "GCG",
+        "model": "llama-2-7b-chat-hf",
+        "attack_type": "white_box",
+        "defense": null,
+        "attack_success_rate": 0.03,
+        "total_number_of_jailbreaks": 2,
+        "number_of_submitted_prompts": 100,
+        "total_number_of_queries": 25650000,
+        "total_prompt_tokens": 1282500000,
+        "total_response_tokens": 410400000,
+        "evaluation_date": "2024-03-18",
+        "evaluation_llm_provider": "litellm"
+      }
+    },
+    {
+      "path": "attack-artifacts/GCG/white_box/vicuna-13b-v1.5.json",
+      "url": "https://raw.githubusercontent.com/JailbreakBench/artifacts/909e68c01d94222b8ad2e397a017e2e12e2adb73/attack-artifacts/GCG/white_box/vicuna-13b-v1.5.json",
+      "sha256": "9eff8b6f78cae002737868ca8cdd886be5afcd1cbbbe4cf51ff837bc688b01b1",
+      "bytes": 134533,
+      "parameters": {
+        "method": "GCG",
+        "model": "vicuna-13b-v1.5",
+        "attack_type": "white_box",
+        "defense": null,
+        "attack_success_rate": 0.8,
+        "total_number_of_jailbreaks": 58,
+        "number_of_submitted_prompts": 100,
+        "total_number_of_queries": 25650000,
+        "total_prompt_tokens": 1282500000,
+        "total_response_tokens": 410400000,
+        "evaluation_date": "2024-03-18",
+        "evaluation_llm_provider": "litellm"
+      }
+    },
+    {
+      "path": "attack-artifacts/JBC/manual/gpt-3.5-turbo-1106.json",
+      "url": "https://raw.githubusercontent.com/JailbreakBench/artifacts/909e68c01d94222b8ad2e397a017e2e12e2adb73/attack-artifacts/JBC/manual/gpt-3.5-turbo-1106.json",
+      "sha256": "5999b8f2fc5e85fd4f7d6553abaeaa66f2dc10c5354faa41622e511c08eab871",
+      "bytes": 241037,
+      "parameters": {
+        "method": "JailbreakChat",
+        "model": "gpt-3.5-turbo-1106",
+        "attack_type": "manual",
+        "defense": null,
+        "attack_success_rate": 0.0,
+        "total_number_of_jailbreaks": 0,
+        "number_of_submitted_prompts": 100,
+        "total_number_of_queries": null,
+        "total_prompt_tokens": null,
+        "total_response_tokens": null,
+        "evaluation_date": "2024-03-24",
+        "evaluation_llm_provider": "litellm"
+      }
+    },
+    {
+      "path": "attack-artifacts/JBC/manual/gpt-4-0125-preview.json",
+      "url": "https://raw.githubusercontent.com/JailbreakBench/artifacts/909e68c01d94222b8ad2e397a017e2e12e2adb73/attack-artifacts/JBC/manual/gpt-4-0125-preview.json",
+      "sha256": "1785f7cf838522461b5b9af3fa606715ecf55c194581f4c8c5c9f1945b59db05",
+      "bytes": 241354,
+      "parameters": {
+        "method": "JailbreakChat",
+        "model": "gpt-4-0125-preview",
+        "attack_type": "manual",
+        "defense": null,
+        "attack_success_rate": 0.0,
+        "total_number_of_jailbreaks": 0,
+        "number_of_submitted_prompts": 100,
+        "total_number_of_queries": null,
+        "total_prompt_tokens": null,
+        "total_response_tokens": null,
+        "evaluation_date": "2024-03-24",
+        "evaluation_llm_provider": "litellm"
+      }
+    },
+    {
+      "path": "attack-artifacts/JBC/manual/llama-2-7b-chat-hf.json",
+      "url": "https://raw.githubusercontent.com/JailbreakBench/artifacts/909e68c01d94222b8ad2e397a017e2e12e2adb73/attack-artifacts/JBC/manual/llama-2-7b-chat-hf.json",
+      "sha256": "1607a5a5b9f50abc7f2ff9e07b7257dfde7228b88cfdf73c20f5f56108ffdd23",
+      "bytes": 305856,
+      "parameters": {
+        "method": "JailbreakChat",
+        "model": "llama-2-7b-chat-hf",
+        "attack_type": "manual",
+        "defense": null,
+        "attack_success_rate": 0.0,
+        "total_number_of_jailbreaks": 0,
+        "number_of_submitted_prompts": 100,
+        "total_number_of_queries": null,
+        "total_prompt_tokens": null,
+        "total_response_tokens": null,
+        "evaluation_date": "2024-03-24",
+        "evaluation_llm_provider": "litellm"
+      }
+    },
+    {
+      "path": "attack-artifacts/JBC/manual/vicuna-13b-v1.5.json",
+      "url": "https://raw.githubusercontent.com/JailbreakBench/artifacts/909e68c01d94222b8ad2e397a017e2e12e2adb73/attack-artifacts/JBC/manual/vicuna-13b-v1.5.json",
+      "sha256": "1d5df5aa451c3d1bb8a4c048a7b2e1e6132e72f2970cb9d94ffc77f44e0edb39",
+      "bytes": 298772,
+      "parameters": {
+        "method": "JailbreakChat",
+        "model": "vicuna-13b-v1.5",
+        "attack_type": "manual",
+        "defense": null,
+        "attack_success_rate": 0.9,
+        "total_number_of_jailbreaks": 79,
+        "number_of_submitted_prompts": 100,
+        "total_number_of_queries": null,
+        "total_prompt_tokens": null,
+        "total_response_tokens": null,
+        "evaluation_date": "2024-03-24",
+        "evaluation_llm_provider": "litellm"
+      }
+    },
+    {
+      "path": "attack-artifacts/PAIR/black_box/gpt-3.5-turbo-1106.json",
+      "url": "https://raw.githubusercontent.com/JailbreakBench/artifacts/909e68c01d94222b8ad2e397a017e2e12e2adb73/attack-artifacts/PAIR/black_box/gpt-3.5-turbo-1106.json",
+      "sha256": "49e007ce488e606cede7ffc8b022e35080b7f3870956e4cb2423d9b42749c78f",
+      "bytes": 164371,
+      "parameters": {
+        "method": "PAIR",
+        "model": "gpt-3.5-turbo-1106",
+        "attack_type": "black_box",
+        "defense": null,
+        "attack_success_rate": 0.71,
+        "total_number_of_jailbreaks": 76,
+        "number_of_submitted_prompts": 87,
+        "total_number_of_queries": 4590,
+        "total_prompt_tokens": 456783,
+        "total_response_tokens": 481527,
+        "evaluation_date": "2024-03-06",
+        "evaluation_llm_provider": "litellm"
+      }
+    },
+    {
+      "path": "attack-artifacts/PAIR/black_box/gpt-4-0125-preview.json",
+      "url": "https://raw.githubusercontent.com/JailbreakBench/artifacts/909e68c01d94222b8ad2e397a017e2e12e2adb73/attack-artifacts/PAIR/black_box/gpt-4-0125-preview.json",
+      "sha256": "6dd214eee78184daf048ac8af166641724b49fd25bc831e5d7201469c162004d",
+      "bytes": 135998,
+      "parameters": {
+        "method": "PAIR",
+        "model": "gpt-4-0125-preview",
+        "attack_type": "black_box",
+        "defense": null,
+        "attack_success_rate": 0.34,
+        "total_number_of_jailbreaks": 50,
+        "number_of_submitted_prompts": 64,
+        "total_number_of_queries": 6030,
+        "total_prompt_tokens": 601789,
+        "total_response_tokens": 720206,
+        "evaluation_date": "2024-03-06",
+        "evaluation_llm_provider": "litellm"
+      }
+    },
+    {
+      "path": "attack-artifacts/PAIR/black_box/llama-2-7b-chat-hf.json",
+      "url": "https://raw.githubusercontent.com/JailbreakBench/artifacts/909e68c01d94222b8ad2e397a017e2e12e2adb73/attack-artifacts/PAIR/black_box/llama-2-7b-chat-hf.json",
+      "sha256": "02819296c5d992568d732d37813b2ce34624068a20f21025c04c04d52820b029",
+      "bytes": 59328,
+      "parameters": {
+        "method": "PAIR",
+        "model": "llama-2-7b-chat-hf",
+        "attack_type": "black_box",
+        "defense": null,
+        "attack_success_rate": 0.0,
+        "total_number_of_jailbreaks": 4,
+        "number_of_submitted_prompts": 4,
+        "total_number_of_queries": 8820,
+        "total_prompt_tokens": 1842493,
+        "total_response_tokens": 1103305,
+        "evaluation_date": "2024-03-06",
+        "evaluation_llm_provider": "litellm"
+      }
+    },
+    {
+      "path": "attack-artifacts/PAIR/black_box/vicuna-13b-v1.5.json",
+      "url": "https://raw.githubusercontent.com/JailbreakBench/artifacts/909e68c01d94222b8ad2e397a017e2e12e2adb73/attack-artifacts/PAIR/black_box/vicuna-13b-v1.5.json",
+      "sha256": "18b101386419a98fbdf45cb987069f83af3a40d5e0f7f0d32c4e9dc5ecc049b4",
+      "bytes": 149383,
+      "parameters": {
+        "method": "PAIR",
+        "model": "vicuna-13b-v1.5",
+        "attack_type": "black_box",
+        "defense": null,
+        "attack_success_rate": 0.69,
+        "total_number_of_jailbreaks": 82,
+        "number_of_submitted_prompts": 82,
+        "total_number_of_queries": 4920,
+        "total_prompt_tokens": 623076,
+        "total_response_tokens": 597804,
+        "evaluation_date": "2024-03-06",
+        "evaluation_llm_provider": "litellm"
+      }
+    },
+    {
+      "path": "attack-artifacts/prompt_with_random_search/black_box/gpt-3.5-turbo-1106.json",
+      "url": "https://raw.githubusercontent.com/JailbreakBench/artifacts/909e68c01d94222b8ad2e397a017e2e12e2adb73/attack-artifacts/prompt_with_random_search/black_box/gpt-3.5-turbo-1106.json",
+      "sha256": "d4a0691eda37b02dc948b6d6d08460f7d5cd3f15099121b388a58634ffb7bd76",
+      "bytes": 364405,
+      "parameters": {
+        "method": "adaptive_random_search",
+        "model": "gpt-3.5-turbo-1106",
+        "attack_type": "black_box",
+        "defense": null,
+        "attack_success_rate": 0.93,
+        "total_number_of_jailbreaks": 100,
+        "number_of_submitted_prompts": 100,
+        "total_number_of_queries": 340,
+        "total_prompt_tokens": 277930,
+        "total_response_tokens": 51210,
+        "evaluation_date": "2024-03-29",
+        "evaluation_llm_provider": "openai"
+      }
+    },
+    {
+      "path": "attack-artifacts/prompt_with_random_search/black_box/gpt-4-0125-preview.json",
+      "url": "https://raw.githubusercontent.com/JailbreakBench/artifacts/909e68c01d94222b8ad2e397a017e2e12e2adb73/attack-artifacts/prompt_with_random_search/black_box/gpt-4-0125-preview.json",
+      "sha256": "4a0573dba6823c676cab99ed54b8191244080883948270fac9b75255b7c69206",
+      "bytes": 362507,
+      "parameters": {
+        "method": "adaptive_random_search",
+        "model": "gpt-4-0125-preview",
+        "attack_type": "black_box",
+        "defense": null,
+        "attack_success_rate": 0.78,
+        "total_number_of_jailbreaks": 100,
+        "number_of_submitted_prompts": 100,
+        "total_number_of_queries": 100703,
+        "total_prompt_tokens": 51342347,
+        "total_response_tokens": 159611,
+        "evaluation_date": "2024-03-29",
+        "evaluation_llm_provider": "openai"
+      }
+    },
+    {
+      "path": "attack-artifacts/prompt_with_random_search/black_box/llama-2-7b-chat-hf.json",
+      "url": "https://raw.githubusercontent.com/JailbreakBench/artifacts/909e68c01d94222b8ad2e397a017e2e12e2adb73/attack-artifacts/prompt_with_random_search/black_box/llama-2-7b-chat-hf.json",
+      "sha256": "45df98af6e1c0e35747f6b9c80cdc606e96c76a511e09a1a49ad5b00cfb51c0a",
+      "bytes": 351767,
+      "parameters": {
+        "method": "adaptive_random_search",
+        "model": "llama-2-7b-chat-hf",
+        "attack_type": "black_box",
+        "defense": null,
+        "attack_success_rate": 0.9,
+        "total_number_of_jailbreaks": 100,
+        "number_of_submitted_prompts": 100,
+        "total_number_of_queries": 2462,
+        "total_prompt_tokens": 1932896,
+        "total_response_tokens": 55228,
+        "evaluation_date": "2024-03-29",
+        "evaluation_llm_provider": "huggingface"
+      }
+    },
+    {
+      "path": "attack-artifacts/prompt_with_random_search/black_box/vicuna-13b-v1.5.json",
+      "url": "https://raw.githubusercontent.com/JailbreakBench/artifacts/909e68c01d94222b8ad2e397a017e2e12e2adb73/attack-artifacts/prompt_with_random_search/black_box/vicuna-13b-v1.5.json",
+      "sha256": "9d87a56659f617438feb5770bb2c8e4c2dbbd1bd62964f2c1a8775988017ac5d",
+      "bytes": 322732,
+      "parameters": {
+        "method": "adaptive_random_search",
+        "model": "vicuna-13b-v1.5",
+        "attack_type": "black_box",
+        "defense": null,
+        "attack_success_rate": 0.89,
+        "total_number_of_jailbreaks": 100,
+        "number_of_submitted_prompts": 100,
+        "total_prompt_tokens": 251094,
+        "total_response_tokens": 50501,
+        "total_number_of_queries": 231,
+        "evaluation_date": "2024-03-29",
+        "evaluation_llm_provider": "huggingface"
+      }
+    }
+  ],
+  "retrieved_utc_date": "2026-09-20",
+  "retained_annotation": "jailbroken",
+  "excluded_category": "Privacy",
+  "artifact_readme_license_statement": "Each artifact is released under MIT license owned by the artifacts authors."
+}

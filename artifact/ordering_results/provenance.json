@@ -1,0 +1,13 @@
+{
+  "binary_matrix_encoding": "row-major uint8 0/1; pilot and heldout rows sorted by original source row index",
+  "numpy_version": "2.3.5",
+  "scipy_version": "1.17.0",
+  "script_sha256": "69b9dd2cdc06fa8861bbb6c72461ef6a03ed13569ce3207bde7a910d4563cc32",
+  "source_rows": "StrongREJECT context hash; Digits original load_digits dataset index",
+  "source_sha256": {
+    "empirical_results/attack_suite.csv": "ad18bc284225299dab1edbf8c9e88847e475e7cd895054cfdc144e4931c4ec71",
+    "empirical_results/logistic_regression_failure_matrix.npz": "2965b5879915a1207223cb8dede53828983423fc971975db66904a657c5a68f2",
+    "empirical_results/random_forest_failure_matrix.npz": "2ef9cefe1b6ea0ce55665dc19dcf7d17c89be6a2b81ae0d7d87740e04dd29076",
+    "strongreject_audit_results/primary_score_matrices.npz": "6c2c0eee3163dfe9f9188af70c683042f16ce04b7d7689aa47aa15e3905e1f1b"
+  }
+}
